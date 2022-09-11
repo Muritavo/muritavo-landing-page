@@ -1,0 +1,14 @@
+$space: 400px * 0.1;
+.page {
+  justify-content: center;
+  display: flex;
+  > * {
+    margin: auto;
+  }
+}
+
+.root {
+  padding: $space 0px;
+  margin: -$space 0px;
+  position: relative;
+}

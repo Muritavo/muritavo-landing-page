@@ -1,0 +1,1 @@
+export type Values = "seamless" | "quality" | "simplicity" | "adaptive" | "dx"

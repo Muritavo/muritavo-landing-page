@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "@muritavo/cypress-toolkit": "^0.6.0",
+    "@muritavo/webpack-microfrontend-scripts": "^0.0.23",
+    "@onepercentio/one-ui": "^0.7.5",
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "cypress": "^10.6.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-intl": "^5",
+    "typescript": "^4.7.4"
+  },
+  "scripts": {
+    "test:watch": "cypress open --component --browser chrome"
+  }
+}

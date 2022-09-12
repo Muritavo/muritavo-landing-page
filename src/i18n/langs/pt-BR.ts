@@ -59,5 +59,42 @@ Logo, as vezes com um pouco de esforço sobre a construção de scripts, essas t
 }
 
 export default flatten({
-    values: valuesTranslations
+    values: valuesTranslations,
+    contact: {
+        errors: {
+            email: "Esse email parece não estar correto"
+        },
+        jobs: {
+            title: "Vamos construir algo juntos?",
+            description: "Manda seu desafio:",
+            action: {
+                status: {
+                    loading: "Me notificando <TextLoad></TextLoad>",
+                    error: "Ops, quer tentar denovo?",
+                    success: "Fui avisado, agora só aguardar :)",
+                    default: "Enviar desafio"
+                }
+            },
+            placeholder: {
+                name: "Nome",
+                email: "Email",
+                message: "Qual o seu desafio, e como eu posso ajudar?"
+            }
+        },
+        help: {
+            title: "Tem alguma dúvida sobre dev?",
+            description: "Vamos resolver juntos?",
+            action: {
+                status: {
+                    default: "Mandar sua dúvida"
+                }
+            },
+            placeholder: {
+                name: "Nome",
+                email: "Email",
+                message: "Qual a sua dúvida?"
+            }
+        },
+
+    }
 })

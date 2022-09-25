@@ -5,7 +5,8 @@ import Component from "features/Contact/Contact";
 import { AllTestProviders } from "../../../components/AllTestProviders";
 
 it.only("Should be able to submit contact information", () => {
-  cy.viewport(350, 640);
+  // cy.viewport(350, 640);
+  cy.viewport(1920, 1080);
   mount(
     <AllTestProviders>
       <Component />

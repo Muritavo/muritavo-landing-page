@@ -6,6 +6,7 @@ import RevealCard from "components/RevealCard";
 import useShortIntl from "@onepercentio/one-ui/dist/hooks/useShortIntl";
 import useElementFit from "@onepercentio/one-ui/dist/hooks/useElementFit";
 import InfinityScroll from "@onepercentio/one-ui/dist/components/InfinityScroll";
+import Text from "@onepercentio/one-ui/dist/components/Text/Text";
 
 const valueToShow: {
   [v in Values]: true;
@@ -25,6 +26,7 @@ export default function ValuesCarrousel() {
   const { ref, itemsToShow } = useElementFit(400);
   return (
     <>
+      <Text type="boldTitleBig">{txt("values.heading")}</Text>
       <InfinityScroll
         ref={ref}
         pageClass={Styles.page}

@@ -59,12 +59,16 @@ Logo, as vezes com um pouco de esforço sobre a construção de scripts, essas t
 }
 
 export default flatten({
-    values: valuesTranslations,
+    values: {
+        heading: "Valores",
+        ...valuesTranslations
+    },
     contact: {
         errors: {
             email: "Esse email parece não estar correto"
         },
         jobs: {
+            heading: "Entre em contato comigo",
             title: "Vamos construir algo juntos?",
             description: "Manda seu desafio:",
             action: {
@@ -85,6 +89,7 @@ export default flatten({
             title: "Tem alguma dúvida sobre dev?",
             description: "Vamos resolver juntos?",
             action: {
+                revelalForm: "Bora 🤛🏻",
                 status: {
                     default: "Mandar sua dúvida"
                 }

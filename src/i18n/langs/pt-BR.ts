@@ -59,6 +59,10 @@ Logo, as vezes com um pouco de esforço sobre a construção de scripts, essas t
 }
 
 export default flatten({
+    myProjects: {
+        title: "Meus trabalhos recentes",
+        knowMore: "Saiba mais"
+    },
     values: {
         heading: "Valores",
         ...valuesTranslations

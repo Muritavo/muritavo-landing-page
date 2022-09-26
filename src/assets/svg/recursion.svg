@@ -1,0 +1,99 @@
+<svg shape-rendering="optimizeSpeed" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <svg shape-rendering="optimizeSpeed">
+        <defs>
+            <filter id="goo">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+                <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7"
+                    result="goo" />
+                <feBlend in="SourceGraphic" in2="goo" />
+            </filter>
+        </defs>
+        <g filter="url(#goo)">
+            <circle shape-rendering="optimizeSpeed" cx="50%" cy="50%" r="230" fill="rgb(232, 178, 0)"
+                transform="translate(-140,-150)">
+                <animateTransform attributeName="transform" attributeType="XML" type="translate"
+                    values="-140,-150;-120 -150;-140,-150;-160 -150;-140,-150" dur="3.8s" repeatCount="indefinite" />
+                <animateTransform additive="sum" attributeName="transform" attributeType="XML" type="rotate"
+                    values="0 0 0;4 0 0;0 0 0" dur="7.5s" repeatCount="indefinite" />
+            </circle>
+            <circle shape-rendering="optimizeSpeed" cx="50%" cy="50%" r="220" fill="rgb(232, 178, 0)"
+                transform="translate(-530,-100)">
+                <animateTransform attributeName="transform" attributeType="XML" type="translate"
+                    values="-530,-100;-550 -130;-530,-100;-510 -80;-530,-100" dur="3.1s" repeatCount="indefinite" />
+                <animateTransform additive="sum" attributeName="transform" attributeType="XML" type="rotate"
+                    values="0 0 0;-4 0 0;0 0 0" dur="9.2s" repeatCount="indefinite" />
+            </circle>
+            <circle shape-rendering="optimizeSpeed" cx="50%" cy="50%" r="190" fill="rgb(232, 178, 0)"
+                transform="translate(-330,260)">
+                <animateTransform attributeName="transform" attributeType="XML" type="translate"
+                    values="-330,260;-350 260;-330,260;-310 260;-330,260" dur="5.2s" repeatCount="indefinite" />
+                <animateTransform additive="sum" attributeName="transform" attributeType="XML" type="rotate"
+                    values="0 0 0;-6 0 0;0 0 0" dur="8s" repeatCount="indefinite" />
+            </circle>
+            <g transform="translate(-50, 0)">
+                <circle shape-rendering="optimizeSpeed" cx="50%" cy="50%" r="200" fill="rgb(232, 178, 0)"
+                    transform="translate(200,200)">
+                    <animateTransform attributeName="transform" attributeType="XML" type="translate"
+                        values="200,200;180 200;200,200;220 200;200,200" dur="5.2" repeatCount="indefinite" />
+                    <animateTransform additive="sum" attributeName="transform" attributeType="XML" type="rotate"
+                        values="0 0 0;4 0 0;0 0 0" dur="9.6s" repeatCount="indefinite" />
+                </circle>
+                <circle shape-rendering="optimizeSpeed" cx="50%" cy="50%" r="155" fill="rgb(232, 178, 0)"
+                    transform="translate(530,260)">
+                    <animateTransform attributeName="transform" attributeType="XML" type="translate"
+                        values="530,260;550 260;530,260;510 260;530,260" dur="4.7s" repeatCount="indefinite" />
+                    <animateTransform additive="sum" attributeName="transform" attributeType="XML" type="rotate"
+                        values="0 0 0;-4 0 0;0 0 0" dur="8.2s" repeatCount="indefinite" />
+                </circle>
+                <circle shape-rendering="optimizeSpeed" cx="50%" cy="50%" r="230" fill="rgb(232, 178, 0)"
+                    transform="translate(330,-150)">
+                    <animateTransform attributeName="transform" attributeType="XML" type="translate"
+                        values="330,-150;320 -110;330,-150;340 -140;330,-150" dur="3.2s" repeatCount="indefinite" />
+                    <animateTransform additive="sum" attributeName="transform" attributeType="XML" type="rotate"
+                        values="0 0 0;-3 0 0;0 0 0" dur="7.8s" repeatCount="indefinite" />
+                </circle>
+            </g>
+
+        </g>
+    </svg>
+    <defs>
+        <filter id='shadow' color-interpolation-filters="sRGB">
+            <feDropShadow dx="2" dy="2" stdDeviation="8" flood-opacity="0.8" />
+        </filter>
+    </defs>
+    <g id="recursion">
+        <g filter="url(#shadow)">
+            <text x="50%" y="50%" fill="white" transform="translate(-165, 0)" font-size="50px">
+                Portfólio pessoal
+            </text>
+            <text x="50%" y="50%" fill="white" transform="translate(-320, 75)" font-size="25px">
+                Um portfólio para apresentação dos meus projetos mais relevantes
+            </text>
+        </g>
+        <svg width="100%" height="100%">
+            <g xmlns="http://www.w3.org/2000/svg" fill="none" fill-rule="evenodd"
+                transform="translate(-40, -40) scale(2)">
+                <path d="m12 24.4219v-16.015l11.591 11.619h-6.781l-.411.124z" fill="#fff" />
+                <path d="m21.0845 25.0962-3.605 1.535-4.682-11.089 3.686-1.553z" fill="#fff" />
+                <g fill="#000">
+                    <path d="m19.751 24.4155-1.844.774-3.1-7.374 1.841-.775z" />
+                    <path d="m13 10.814v11.188l2.969-2.866.428-.139h4.768z" />
+                </g>
+            </g>
+            <g xmlns="http://www.w3.org/2000/svg" fill="none" fill-rule="evenodd"
+                transform="translate(-40, -40) scale(2)">
+                <path d="m12 24.4219v-16.015l11.591 11.619h-6.781l-.411.124z" fill="#000" />
+                <path d="m21.0845 25.0962-3.605 1.535-4.682-11.089 3.686-1.553z" fill="#000" />
+                <g fill="#fff">
+                    <path d="m19.751 24.4155-1.844.774-3.1-7.374 1.841-.775z" />
+                    <path d="m13 10.814v11.188l2.969-2.866.428-.139h4.768z" />
+                </g>
+            </g>
+        </svg>
+    </g>
+    <use xlink:href="#recursion" id="r3" transform="scale(0.9)" transform-origin="50% 120%" opacity="0.4" />
+    <use xlink:href="#r3" id="r4" transform="scale(0.9)" transform-origin="50% 120%" opacity="0.2" />
+    <use xlink:href="#r4" id="r5" transform="scale(0.9)" transform-origin="50% 120%" opacity="0.9" />
+    <use xlink:href="#r5" id="r6" transform="scale(0.9)" transform-origin="50% 120%" opacity="0.9" />
+    <use xlink:href="#r6" id="r7" transform="scale(0.9)" transform-origin="50% 120%" opacity="0.9" />
+</svg>

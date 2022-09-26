@@ -1,0 +1,9 @@
+.root,
+.root svg {
+  height: 100%;
+  width: 100%;
+  cursor: none;
+}
+.root > svg circle {
+  filter: blur(20px);
+}

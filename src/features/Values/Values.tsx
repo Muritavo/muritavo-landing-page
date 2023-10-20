@@ -16,6 +16,7 @@ const valueToShow: {
   simplicity: true,
   adaptive: true,
   dx: true,
+  user_first: true
 };
 
 /**

@@ -1,1 +1,1 @@
-export type Values = "seamless" | "quality" | "simplicity" | "adaptive" | "dx"
+export type Values = "seamless" | "quality" | "simplicity" | "adaptive" | "dx" | "user_first"
